@@ -96,3 +96,10 @@
 [data-md-color-scheme="slate"] .md-typeset .admonition.warning { background: #2a2010; }
 
 .md-footer { background: var(--sr-ink); }
+
+/* Ряд скриншотов */
+.shots { display: flex; flex-wrap: wrap; gap: 16px; margin: 1em 0 1.4em; }
+.shots figure { margin: 0; flex: 0 1 230px; text-align: center; }
+.shots figure img { max-width: 230px; }
+.shots figcaption { font-size: 0.7rem; color: var(--sr-ink-2); margin-top: 6px; }
+.md-typeset .steps > li { margin-bottom: 0.9em; }

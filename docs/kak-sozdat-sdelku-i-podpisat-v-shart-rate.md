@@ -1,94 +1,71 @@
 # Как создать сделку и подписать в Shart Rate
 
-По итогу, статус вашей сделки должен быть «Активный».
+Сделка становится действующей, когда обе стороны подписали договор, деньги переданы и заёмщик подтвердил получение. Статус сделки — **«Активный»**.
 
-###  1. Создание сделки
+!!! info "Перед началом"
+    Обе стороны должны [пройти верификацию](kak-prokhodit-verifikaciya-v-shart-rate.md) в приложении.
 
-1. На главном экране нажмите<br>
-   👉 **«Оформить сделку»**
-2. Выберите тип:
+## 1. Выберите, что оформляете
 
-* 👉 **«Дать в долг»** — если вы даёте деньги
-* 👉 **«Взять в долг»** — если вы берёте
+На главном экране нажмите **«Оформить сделку»** и выберите вид:
 
-<div align="left"><figure><img src="/assets/img/caab6a43a6d8.png" alt="" width="188"><figcaption></figcaption></figure> <figure><img src="/assets/img/37bf473f9b67.png" alt="" width="188"><figcaption></figcaption></figure></div>
+- **Денежный займ** — взять или дать деньги в долг;
+- **Фиксация существующего долга** — долг уже есть, нужно оформить договор ([подробнее](fiksaciya-dolga.md));
+- **Товарный займ** — товар сейчас, оплата потом.
 
-### 2. Заполнение условий
+Комиссия сервиса — от 990 ₸, точная сумма зависит от суммы займа (кнопка «Тарифы»).
 
-Укажите:
+<div class="shots">
+<figure><img src="/assets/shots/precreate.png" alt="Что оформляем"><figcaption>«Что оформляем?»</figcaption></figure>
+</div>
 
-* **Сумму займа**
-* **Номер телефона второй стороны**
-* **Способ передачи денег**:
-  * на карту
-  * наличными<br>
-    👉 Если наличные — рекомендуется зафиксировать передачу (расписка/видео)
-* 📌 **Дата возврата**<br>
-  (от 1 дня до 3 лет)
-*
+## 2. Заполните условия
 
-```
-<div align="left"><figure><img src="/files/B3XJsns9M7qtsVz7F2iN" alt="" width="201"><figcaption></figcaption></figure> <figure><img src="/files/HYe3vUab0fOOB8bb6elr" alt="" width="201"><figcaption></figcaption></figure></div>
-```
+Выберите сторону — **«Взять в долг»** или **«Дать в долг»** — и укажите:
 
-### 3. Комиссия
+- **сумму**;
+- **номер телефона второй стороны** (можно выбрать из контактов);
+- **форму получения** — на карту или наличными;
+- **способ возврата** — одной суммой или частями (для «частями» выберите дату первого платежа);
+- **дату возврата**.
 
-👉 Комиссию оплачивает<br>
-**тот, кто создаёт сделку**
+Нажмите **«Отправить запрос»**.
 
-После заполнения нажмите:<br>
-👉 **«Отправить запрос»**
+<div class="shots">
+<figure><img src="/assets/shots/borrow-form.png" alt="Форма Взять в долг"><figcaption>«Взять в долг»</figcaption></figure>
+<figure><img src="/assets/shots/lend-form.png" alt="Форма Дать в долг"><figcaption>«Дать в долг»</figcaption></figure>
+</div>
 
-<div align="left"><figure><img src="/assets/img/73c5563d5c00.jpg" alt="" width="201"><figcaption></figcaption></figure></div>
+## 3. Вторая сторона принимает заявку
 
-### 4. Действия второй стороны
+Второй участник получает уведомление, открывает заявку и нажимает **«Принять»** или **«Отклонить»**.
 
-Второй участник получает уведомление 
+## 4. Подтвердите адрес регистрации
 
-Он открывает заявку и:
+Адрес регистрации входит в договор. Приложение попросит подтвердить его — без этого договор не сформируется.
 
-👉 Нажимает **«Принять»** — если согласен<br>
-👉 Или **«Отклонить»**
+## 5. Оплатите комиссию
 
-### 5. Подтверждение сделки
+Комиссию сервиса оплачивает **заёмщик** — кнопкой **«Оплатить комиссию»** в приложении (Visa, Mastercard, Kaspi).
 
-После принятия заявки:
+!!! danger "Комиссия платится только в приложении"
+    Займодатель не вправе требовать с вас никаких платежей. Если просят перевести на карту — это мошенник, напишите в поддержку.
 
-Сделка переходит к этапу подписания
+## 6. Подпишите договор
 
-<div><figure><img src="/assets/img/5e8d2561fca5.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/f26f5a023926.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/6c4f90c41d81.png" alt=""><figcaption></figcaption></figure></div>
-
-### 7. Подписание договора
-
-Обе стороны по очереди:
-
-1. Проверяют данные
-2. Нажимают **«Перейти к договору»**
-3. Оплата комиссии
-
-Способы:
-
-* карта (Visa / MasterCard / Kaspi)
-
-<div><figure><img src="/assets/img/c56fcbdf9eb8.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/742894b27f40.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/5b6fe7e7f402.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/e8efefea2da1.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/41a99a250e74.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/19159ef8b5ba.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/082b91032040.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/6590f7ae4259.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/da8282d6943c.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/5c90dad2f6e7.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="/assets/img/8bbab9f06e91.png" alt="" width="167"><figcaption></figcaption></figure> <figure><img src="/assets/img/ed10d2cbfbdd.png" alt="" width="167"><figcaption></figcaption></figure> <figure><img src="/assets/img/38f6a591b52c.png" alt="" width="167"><figcaption></figcaption></figure></div>
-
-После оплаты: подписывают через ЭЦП
-
-<div><figure><img src="/assets/img/aebf28b75be2.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/6bdbec3649a3.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/b8a4cba6bfbd.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/c88b29e53627.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/b0e069f812df.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/598b573ce6f9.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/d12c493cf1a1.png" alt=""><figcaption></figcaption></figure></div>
+Обе стороны по очереди нажимают **«Перейти к договору»** → **«Подписать договор»** и подписывают через ЭЦП с биометрией. Как это выглядит — в статье [Полный флоу подписания](polnyi-flou-podpisaniya-+-smena-sozdanie-parolya-ecp.md).
 
 !!! warning
-    Статус сделки меняется на «подписан обеими сторонами» только после того, как обе стороны подпишут договор. До этого момента договор не имеет юридической силы.
+    Договор получает юридическую силу только после подписи **обеих** сторон.
 
+## 7. Передача денег
 
-<div align="left"><figure><img src="/assets/img/605cc31f5013.png" alt="" width="333"><figcaption></figcaption></figure> <figure><img src="/assets/img/c8248b9444f3.png" alt="" width="333"><figcaption></figcaption></figure></div>
+1. Займодатель переводит деньги (или передаёт наличными) и отмечает передачу в приложении.
+2. Заёмщик подтверждает получение.
 
-### 8. Финальный этап сделки
+Готово — сделка **«Активная»**. В деталях сделки виден статус по этапам, сумма к возврату и дата возврата.
 
-Далее:
-
-1. Займодатель подтверждает передачу денег
-2. Заёмщик подтверждает получение
-
-<div><figure><img src="/assets/img/a08f2b0870e4.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/7ea50ddb67a0.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/b662a881ea08.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/3801a4bf24f7.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/3d65c3e5537c.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/0f0bcb01af84.png" alt=""><figcaption></figcaption></figure></div>
+<div class="shots">
+<figure><img src="/assets/shots/borrowed-details.png" alt="Детали активной сделки"><figcaption>Активная сделка</figcaption></figure>
+<figure><img src="/assets/shots/borrowed-status.png" alt="Статус сделки по этапам"><figcaption>Статус сделки: этап 4 из 4</figcaption></figure>
+</div>

@@ -1,44 +1,22 @@
-# Полное погашение займа (со стороны заемщика)
+# Полное погашение займа (со стороны заёмщика)
 
-1. Откройте свою сделку
-2. Нажмите<br>
-   👉 **«Погасить займ полностью»**
+1. Откройте сделку и нажмите **«Погасить займ полностью»**.
+2. На экране — сумма к оплате. По желанию выберите **«Сказать спасибо»** (1%, 5% или 10% сверху) — благодарность повысит ваш рейтинг доверия.
+3. Нажмите **«Оплатить»**.
 
-<div align="left"><figure><img src="/assets/img/a671626246c5.png" alt="" width="333"><figcaption></figcaption></figure></div>
+<div class="shots">
+<figure><img src="/assets/shots/borrowed-details.png" alt="Кнопки погашения"><figcaption>Кнопки погашения в сделке</figcaption></figure>
+<figure><img src="/assets/shots/repay-full.png" alt="Полное погашение"><figcaption>Экран полного погашения</figcaption></figure>
+</div>
 
-3. На экране отобразится сумма к оплате
+!!! warning "Погашение подтверждает займодатель"
+    Полное погашение не завершается автоматически: займодатель проверяет поступление денег и подтверждает оплату в приложении.
 
-👉 Основной долг<br>
-\+ при желании можно выбрать «Сказать спасибо» (необязательно)
+## Результат
 
-4. Нажмите<br>
-   **«Оплатить»**
-5. После оплаты
+После подтверждения займодателя:
 
-формируется запрос на подтверждение
+- займ получает статус **«Оплачен»**;
+- остаток долга = 0, сделка закрыта.
 
-!!! warning "Важно"
-
-    👉 Полное погашение не завершается автоматически
-
-    👉 Его должен **подтвердить заимодатель**
-
-
-<div><figure><img src="/assets/img/b49ee99f8077.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/acf9591eaa74.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/e7dc3a720c96.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/5fa18862af23.png" alt=""><figcaption></figcaption></figure></div>
-
-### Что делает заимодатель
-
-1. Проверяет поступление денег
-2. Подтверждает оплату в приложении
-
-<div><figure><img src="/assets/img/05c62270c3f8.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/5f82c4075050.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/7824adb1b69c.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/2ca6b2d8505b.png" alt=""><figcaption></figcaption></figure></div>
-
-### Результат
-
-После подтверждения:
-
-✅ Займ получает статус **«Оплачен»**<br>
-✅ Сделка считается полностью закрытой<br>
-✅ Остаток долга = 0
-
-<div align="left"><figure><img src="/assets/img/3de357b3d9c6.png" alt="" width="333"><figcaption></figcaption></figure></div>
+Если вы вернули деньги не через приложение — займодатель может сам [отметить, что деньги вернули](zaemshik-vernul-dengi.md).

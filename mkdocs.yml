@@ -46,7 +46,9 @@ nav:
       - "Как создать сделку и подписать в Shart Rate": kak-sozdat-sdelku-i-podpisat-v-shart-rate.md
       - "Частичное погашение (со стороны заемщика)": chastichnoe-pogashenie-so-storony-zaemshika.md
       - "Полное погашение займа (со стороны заемщика)": polnoe-pogashenie-zaima-so-storony-zaemshika.md
-      - "Продление сделки (со стороны заемщика)": prodlenie-sdelki-so-storony-zaemshika.md
+      - "Продление и изменение условий": prodlenie-sdelki-so-storony-zaemshika.md
+      - "Заёмщик вернул деньги": zaemshik-vernul-dengi.md
+      - "Фиксация существующего долга": fiksaciya-dolga.md
       - "🔐Полный флоу подписания + смена/создание пароля ЭЦП": polnyi-flou-podpisaniya-+-smena-sozdanie-parolya-ecp.md
       - "Регистрация и авторизация": registraciya-i-avtorizaciya.md
       - "Верификация (KYC)": verifikaciya-kyc.md

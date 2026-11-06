@@ -8,7 +8,7 @@ KYC (Know Your Customer — «Знай своего клиента») — это
 
 #### Как пройти верификацию
 
-1. На главной нажимаете «Пройдите верификацию»<br>
+1. На главной нажмите «Пройти верификацию»<br>
 
    <figure><img src="/assets/img/8ca5bee6e31e.png" alt=""><figcaption></figcaption></figure>
 

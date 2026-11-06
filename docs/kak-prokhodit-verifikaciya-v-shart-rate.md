@@ -1,6 +1,6 @@
 # Как проходит верификация в Shart Rate
 
-1. На главной нажимаете **«Пройдите верификацию»**
+1. На главной нажмите **«Пройти верификацию»**
 
 <div align="left"><figure><img src="/assets/img/324094a4e4e6.png" alt="" width="286"><figcaption></figcaption></figure></div>
 
