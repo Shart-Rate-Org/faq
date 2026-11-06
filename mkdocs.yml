@@ -23,7 +23,7 @@ plugins:
   - search:
       lang: [ru]
 extra_css:
-  - stylesheets/brand.css
+  - stylesheets/brand.css?v=fd432b46
 extra:
   generator: false
   social:

@@ -6,3 +6,4 @@
 - Меню: `nav` в `mkdocs.yml`.
 - Локально: `pip install -r requirements.txt && mkdocs serve`.
 - Деплой: push в `main` → GitHub Actions → GitHub Pages.
+- После правки `docs/stylesheets/brand.css` обновите `?v=` в `extra_css` (`shasum docs/stylesheets/brand.css | cut -c1-8`), иначе браузеры до 4 ч держат старый CSS.
