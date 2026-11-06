@@ -54,11 +54,13 @@ nav:
       - "Верификация (KYC)": verifikaciya-kyc.md
   - Қазақша:
       - "Қош келдіңіз": kz/index.md
-      - "Келісімді ұзарту (қарыз алушы тарапынан)": kz/kelisimdi-zartu-aryz-alushy-tarapynan.md
       - "Бұл қалай жұмыс істейді": kz/b-l-alai-zh-mys-isteidi.md
       - "Shart Rate қосымшасына қалай кіруге / тіркелуге болады": kz/shart-rate-osymshasyna-alai-kiruge-tirkeluge-bolady.md
       - "Shart Rate-та верификация қалай өтеді": kz/shart-rate-ta-verifikaciya-alai-tedi.md
+      - "Shart Rate-та мәміле жасау және қол қою нұсқаулығы": kz/shart-rate-ta-m-mile-zhasau-zh-ne-ol-oyu-n-s-auly-y.md
       - "Ішінара өтеу (қарыз алушы жағынан)": kz/ishinara-teu-aryz-alushy-zha-ynan.md
       - "Қарызды толық өтеу (қарыз алушы тарапынан)": kz/aryzdy-toly-teu-aryz-alushy-tarapynan.md
+      - "Мерзімді ұзарту және талаптарды өзгерту": kz/kelisimdi-zartu-aryz-alushy-tarapynan.md
+      - "Қарыз алушы ақшаны қайтарды": kz/zaemshik-vernul-dengi.md
+      - "Бар қарызды тіркеу": kz/fiksaciya-dolga.md
       - "🔐ЭЦҚ құпия сөзін орнату/өзгерту және құжатқа қол қою толық процесі": kz/ec-piya-s-zin-ornatu-zgertu-zh-ne-zhat-a-ol-oyu-toly-procesi.md
-      - "Shart Rate-та мәміле жасау және қол қою нұсқаулығы": kz/shart-rate-ta-m-mile-zhasau-zh-ne-ol-oyu-n-s-auly-y.md
