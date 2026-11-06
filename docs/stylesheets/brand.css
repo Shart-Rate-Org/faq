@@ -103,3 +103,31 @@
 .shots figure img { max-width: 230px; }
 .shots figcaption { font-size: 0.7rem; color: var(--sr-ink-2); margin-top: 6px; }
 .md-typeset .steps > li { margin-bottom: 0.9em; }
+
+/* Вкладки языков */
+.md-tabs { background: #fff; color: var(--sr-ink); border-bottom: 1px solid var(--sr-line); }
+[data-md-color-scheme="slate"] .md-tabs { background: #111814; border-color: #1f2a26; }
+.md-tabs__link { font-weight: 600; opacity: 0.6; }
+.md-tabs__item--active .md-tabs__link { color: var(--sr-primary); opacity: 1; }
+[data-md-color-scheme="slate"] .md-tabs__item--active .md-tabs__link { color: var(--sr-green); }
+
+/* Заголовки поменьше и аккуратнее */
+.md-typeset h1 { font-size: 1.75rem; margin-bottom: 0.8em; }
+.md-typeset h2 { font-size: 1.15rem; margin-top: 1.8em; }
+
+/* Карточки на главной */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin: 1.4em 0; }
+.cards a.card {
+  display: block; padding: 18px 18px 16px; border-radius: 16px;
+  border: 1px solid var(--sr-line); background: #fff; color: var(--sr-ink) !important;
+  transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+.cards a.card:hover { border-color: var(--sr-green); box-shadow: 0 8px 24px rgba(4,120,87,.10); transform: translateY(-2px); }
+.cards .card b { display: block; font-size: 0.85rem; margin-bottom: 4px; }
+.cards .card span { font-size: 0.72rem; color: var(--sr-ink-2); line-height: 1.45; display: block; }
+.cards .card .ic { font-size: 1.3rem; margin-bottom: 8px; display: block; }
+[data-md-color-scheme="slate"] .cards a.card { background: #131c18; border-color: #1f2a26; color: #e8eeeb !important; }
+.hero { padding: 8px 0 4px; }
+.hero p { font-size: 0.9rem; color: var(--sr-ink-2); max-width: 640px; }
+.store-links a { display: inline-block; margin-right: 10px; margin-top: 6px; padding: 8px 14px; border-radius: 12px; background: var(--sr-primary); color: #fff !important; font-weight: 600; font-size: 0.75rem; }
+@media (max-width: 600px) { .md-typeset h1 { font-size: 1.4rem; } }

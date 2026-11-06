@@ -1,65 +1,56 @@
 # Как проходит верификация в Shart Rate
 
-1. На главной нажмите **«Пройти верификацию»**
+Верификация подтверждает вашу личность. Без неё нельзя оформлять сделки. Занимает 2–3 минуты.
 
-<div align="left"><figure><img src="/assets/img/324094a4e4e6.png" alt="" width="286"><figcaption></figcaption></figure></div>
+!!! danger "Важно"
+    Номер телефона должен быть привязан к вашему ИИН в eGov. Иначе верификация не пройдёт.
 
-2. Ввод данных 
+## 1. Начните верификацию
 
-Пользователь вводит: 
+На главном экране нажмите **«Пройти верификацию»**.
 
-• ИИН 
+## 2. Введите данные
 
-• номер телефона 
+Укажите **ИИН** и **номер телефона**, который указан в eGov.
 
-!!! danger
-    Важно: Номер должен быть привязан к eGov (ИИН) 
+<div class="shots">
+<figure><img src="/assets/img/324094a4e4e6.png" alt="Начало верификации"><figcaption>Начало верификации</figcaption></figure>
+<figure><img src="/assets/img/ec5ec2f691ff.png" alt="ИИН и телефон"><figcaption>ИИН и телефон</figcaption></figure>
+</div>
 
+## 3. Дайте согласие
 
-Иначе верификация не пройдет
+Примите обработку данных и биометрии — **«Принять и продолжить»**.
 
-<div align="left"><figure><img src="/assets/img/ec5ec2f691ff.png" alt="" width="273"><figcaption></figcaption></figure></div>
+## 4. Введите код от 1414
 
-3. Согласие
-   <br>
-   • Пользователь принимает обработку данных (биометрия)
-   <br>
-   • Нажимает «Принять и продолжить»
+На телефон придёт SMS от **1414** (eGov). Введите код в приложении.
 
-<div align="left"><figure><img src="/assets/img/d08f2f37960a.png" alt="" width="301"><figcaption></figcaption></figure></div>
+<div class="shots">
+<figure><img src="/assets/img/d08f2f37960a.png" alt="Согласие"><figcaption>Согласие</figcaption></figure>
+<figure><img src="/assets/img/84d5d22a8741.png" alt="Код от 1414"><figcaption>Код от 1414</figcaption></figure>
+</div>
 
-4. СМС-код (1414) 
+## 5. Пройдите проверку лица
 
-• Приходит код от 1414 (Biometric / eGov) 
+Откроется камера:
 
-• Вводит код в приложении
+- держите телефон на уровне глаз;
+- смотрите прямо;
+- снимите головной убор и очки.
 
-<div align="left"><figure><img src="/assets/img/84d5d22a8741.png" alt="" width="349"><figcaption></figcaption></figure></div>
+<div class="shots">
+<figure><img src="/assets/img/44584ae7b4c7.png" alt="Камера"><figcaption>Камера</figcaption></figure>
+<figure><img src="/assets/img/f76c77f7f22d.png" alt="Проверка"><figcaption>Проверка</figcaption></figure>
+<figure><img src="/assets/img/fdafc4579fc9.png" alt="Скан лица"><figcaption>Скан лица</figcaption></figure>
+</div>
 
-5. Биометрия 
+## Готово
 
-• Открывается камера 
+Появится **«Верификация пройдена успешно!»** — все функции приложения доступны.
 
-• Нужно: 
+<div class="shots">
+<figure><img src="/assets/img/2f48149d205a.png" alt="Верификация пройдена"><figcaption>Верификация пройдена</figcaption></figure>
+</div>
 
-1\) держать телефон на уровне глаз 
-
-2\) смотреть прямо 
-
-3\) убрать головные уборы 
-
-• Делается фото/скан лица
-
-<div><figure><img src="/assets/img/44584ae7b4c7.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/f76c77f7f22d.png" alt=""><figcaption></figcaption></figure> <figure><img src="/assets/img/fdafc4579fc9.png" alt=""><figcaption></figcaption></figure></div>
-
-6. Завершение
-   <br>
-   • Если всё ок →
-   <br>
-   «Верификация пройдена успешно»
-   <br>
-   • Открывается полный доступ к приложению
-
-Если у вас возникли проблемы, пожалуйста, свяжитесь с технической поддержкой.
-
-<div align="left"><figure><img src="/assets/img/2f48149d205a.png" alt="" width="329"><figcaption></figcaption></figure> <figure><img src="/assets/img/f7badc64caf1.png" alt="" width="329"><figcaption></figcaption></figure></div>
+Не получается? Напишите в поддержку — кнопка WhatsApp на главном экране приложения.

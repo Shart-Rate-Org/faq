@@ -1,72 +1,53 @@
-# 🔐Полный флоу подписания + смена/создание пароля ЭЦП
+# Подписание договора и пароль ЭЦП
 
-1. Подписание договора
-   <br>
-   • Открываете документ
-   <br>
-   • Ставите галочку
-   <br>
-   «Я подтверждаю ознакомление…»
-   <br>
-   • Нажимаете «Подписать»
-2. Согласие на биометрию
-   <br>
-   • Нажимаете «Принять и продолжить»
-3. Биометрия
-   <br>
-   • Камера включается
-   <br>
-   • Держите лицо прямо
+Договор подписывается электронной цифровой подписью (ЭЦП) с проверкой лица. ЭЦП выпускается бесплатно прямо в процессе подписания.
 
-<div align="left"><figure><img src="/assets/img/beea8b9df54f.png" alt="" width="333"><figcaption></figcaption></figure></div>
+## 1. Откройте договор
 
-4. Согласие на выпуск ЭЦП
-   <br>
-   • Ставите галочку
-   <br>
-   «Я даю согласие на выпуск ЭЦП»
+Откройте документ, поставьте галочку **«Я подтверждаю ознакомление…»** и нажмите **«Подписать»**.
 
-<div align="left"><figure><img src="/assets/img/751d99a0cd10.png" alt="" width="333"><figcaption></figcaption></figure></div>
+## 2. Согласие на биометрию
 
-5. Экран ввода пароля
-   <br>
-   Теперь ключевой момент
+Нажмите **«Принять и продолжить»**.
 
-👉Если пароль ЭЦП уже есть
-<br>
-• Вводите пароль
-<br>
-• Нажимаете «Подписать»
+## 3. Проверка лица
 
-👉Если забыли / нет пароля
-<br>
-• Нажимаете
-<br>
-«Забыли пароль? Перевыпустить сертификат»
+Камера включится сама. Держите телефон на уровне глаз и смотрите прямо.
 
-<div align="left"><figure><img src="/assets/img/c895198a4086.png" alt="" width="333"><figcaption></figcaption></figure></div>
+<div class="shots">
+<figure><img src="/assets/img/beea8b9df54f.png" alt="Проверка лица"><figcaption>Проверка лица</figcaption></figure>
+<figure><img src="/assets/img/751d99a0cd10.png" alt="Согласие на выпуск ЭЦП"><figcaption>Согласие на выпуск ЭЦП</figcaption></figure>
+</div>
 
-🔄Создание нового пароля 
+## 4. Согласие на выпуск ЭЦП
 
-6\. Ввод СМС-кода 
+Поставьте галочку **«Я даю согласие на выпуск ЭЦП»**.
 
-* Вводите код из СМС
+## 5. Введите пароль ЭЦП
 
-<div><figure><img src="/assets/img/2c58cb99dd3f.png" alt="" width="167"><figcaption></figcaption></figure> <figure><img src="/assets/img/803ddf759678.png" alt="" width="167"><figcaption></figcaption></figure></div>
+- **Пароль уже есть** — введите его и нажмите **«Подписать»**.
+- **Забыли или ещё нет пароля** — нажмите **«Забыли пароль? Перевыпустить сертификат»** и создайте новый (шаги ниже).
 
-7. Создание пароля
-   <br>
-   • Вводите новый пароль (4 цифры)
-   <br>
-   • Повторяете его
-8. Подписание
-   <br>
-   • Нажимаете «Подписать»
+<div class="shots">
+<figure><img src="/assets/img/c895198a4086.png" alt="Ввод пароля ЭЦП"><figcaption>Ввод пароля ЭЦП</figcaption></figure>
+</div>
 
-<div align="left"><figure><img src="/assets/img/7b5b5f0ccc70.png" alt="" width="167"><figcaption></figcaption></figure> <figure><img src="/assets/img/851b40bac178.png" alt="" width="167"><figcaption></figcaption></figure></div>
+## Если нужен новый пароль
 
-9. Результат
-   <br>
-   «Успешный вход»
-   <br>
-   Документ подписан
+1. **Введите код из SMS.**
+2. **Придумайте пароль** из 4 цифр и повторите его.
+3. Нажмите **«Подписать»**.
+
+<div class="shots">
+<figure><img src="/assets/img/2c58cb99dd3f.png" alt="Код из SMS"><figcaption>Код из SMS</figcaption></figure>
+<figure><img src="/assets/img/803ddf759678.png" alt="Новый пароль"><figcaption>Новый пароль</figcaption></figure>
+<figure><img src="/assets/img/7b5b5f0ccc70.png" alt="Подписание"><figcaption>Подписание</figcaption></figure>
+</div>
+
+## Готово
+
+Появится **«Успешный вход»** — документ подписан. Договор вступит в силу, когда подпишет и вторая сторона.
+
+<div class="shots">
+<figure><img src="/assets/img/851b40bac178.png" alt="Документ подписан"><figcaption>Документ подписан</figcaption></figure>
+</div>
