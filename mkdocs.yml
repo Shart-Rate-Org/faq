@@ -1,0 +1,46 @@
+site_name: Shart Rate — помощь
+site_url: https://faq.shart-rate.com/
+use_directory_urls: true
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: white
+      accent: indigo
+      toggle: {icon: material/brightness-7, name: Тёмная тема}
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle: {icon: material/brightness-4, name: Светлая тема}
+  features: [navigation.sections, navigation.top, search.suggest, search.highlight, content.code.copy]
+plugins:
+  - search:
+      lang: [ru]
+markdown_extensions: [admonition, attr_list, md_in_html, tables, toc]
+not_in_nav: |
+  /dobro-pozhalovat-v-shart-rate.md
+  /kz/shart-rate-ke-osh-keldi-iz.md
+nav:
+  - Русский:
+      - "Добро пожаловать": index.md
+      - "Как это работает": kak-eto-rabotaet.md
+      - "Как войти / зарегистрироваться в Shart Rate": kak-voiti-zaregistrirovatsya-v-shart-rate.md
+      - "Как проходит верификация в Shart Rate": kak-prokhodit-verifikaciya-v-shart-rate.md
+      - "Как создать сделку и подписать в Shart Rate": kak-sozdat-sdelku-i-podpisat-v-shart-rate.md
+      - "Частичное погашение (со стороны заемщика)": chastichnoe-pogashenie-so-storony-zaemshika.md
+      - "Полное погашение займа (со стороны заемщика)": polnoe-pogashenie-zaima-so-storony-zaemshika.md
+      - "Продление сделки (со стороны заемщика)": prodlenie-sdelki-so-storony-zaemshika.md
+      - "🔐Полный флоу подписания + смена/создание пароля ЭЦП": polnyi-flou-podpisaniya-+-smena-sozdanie-parolya-ecp.md
+      - "Регистрация и авторизация": registraciya-i-avtorizaciya.md
+      - "Верификация (KYC)": verifikaciya-kyc.md
+  - Қазақша:
+      - "Қош келдіңіз": kz/index.md
+      - "Келісімді ұзарту (қарыз алушы тарапынан)": kz/kelisimdi-zartu-aryz-alushy-tarapynan.md
+      - "Бұл қалай жұмыс істейді": kz/b-l-alai-zh-mys-isteidi.md
+      - "Shart Rate қосымшасына қалай кіруге / тіркелуге болады": kz/shart-rate-osymshasyna-alai-kiruge-tirkeluge-bolady.md
+      - "Shart Rate-та верификация қалай өтеді": kz/shart-rate-ta-verifikaciya-alai-tedi.md
+      - "Ішінара өтеу (қарыз алушы жағынан)": kz/ishinara-teu-aryz-alushy-zha-ynan.md
+      - "Қарызды толық өтеу (қарыз алушы тарапынан)": kz/aryzdy-toly-teu-aryz-alushy-tarapynan.md
+      - "🔐ЭЦҚ құпия сөзін орнату/өзгерту және құжатқа қол қою толық процесі": kz/ec-piya-s-zin-ornatu-zgertu-zh-ne-zhat-a-ol-oyu-toly-procesi.md
+      - "Shart Rate-та мәміле жасау және қол қою нұсқаулығы": kz/shart-rate-ta-m-mile-zhasau-zh-ne-ol-oyu-n-s-auly-y.md
