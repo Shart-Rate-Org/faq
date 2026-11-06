@@ -1,9 +1,14 @@
 site_name: Shart Rate — помощь
+site_description: "Инструкции по приложению Shart Rate: вход, верификация, сделки, подписание, погашение"
 site_url: https://faq.shart-rate.com/
 use_directory_urls: true
 theme:
   name: material
   language: ru
+  logo: assets/brand/logo.svg
+  favicon: assets/brand/logo.svg
+  font:
+    text: Inter
   palette:
     - scheme: default
       primary: white
@@ -17,6 +22,17 @@ theme:
 plugins:
   - search:
       lang: [ru]
+extra_css:
+  - stylesheets/brand.css
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/apple
+      link: https://apps.apple.com/kz/app/shart-rate/id6743425144
+    - icon: fontawesome/brands/google-play
+      link: https://play.google.com/store/apps/details?id=kz.shartrate
+    - icon: fontawesome/solid/globe
+      link: https://shart-rate.kz
 markdown_extensions: [admonition, attr_list, md_in_html, tables, toc]
 not_in_nav: |
   /dobro-pozhalovat-v-shart-rate.md

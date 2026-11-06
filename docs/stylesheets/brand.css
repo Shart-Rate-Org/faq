@@ -1,0 +1,98 @@
+/* Shart Rate brand — colors from mobile lib/core/theme/shart_colors.dart */
+:root {
+  --sr-primary: #047857;
+  --sr-green: #11b083;
+  --sr-green-15: #daebe6;
+  --sr-ink: #222222;
+  --sr-ink-2: #60656c;
+  --sr-line: #e7edf2;
+  --sr-bg: #f8f8f8;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #ffffff;
+  --md-primary-bg-color: var(--sr-ink);
+  --md-primary-bg-color--light: var(--sr-ink-2);
+  --md-accent-fg-color: var(--sr-green);
+  --md-typeset-a-color: var(--sr-primary);
+  --md-default-fg-color: var(--sr-ink);
+  --md-default-fg-color--light: var(--sr-ink-2);
+  --md-default-bg-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #111814;
+  --md-primary-bg-color: #f2f5f4;
+  --md-accent-fg-color: var(--sr-green);
+  --md-typeset-a-color: var(--sr-green);
+  --md-default-bg-color: #0d1311;
+}
+
+.md-header {
+  box-shadow: 0 1px 0 var(--sr-line);
+}
+[data-md-color-scheme="slate"] .md-header { box-shadow: 0 1px 0 #1f2a26; }
+
+.md-header__button.md-logo img { height: 32px; width: 32px; border-radius: 9px; }
+.md-header__title { font-weight: 700; letter-spacing: -0.01em; }
+
+.md-search__form { border-radius: 12px; background: var(--sr-bg); }
+[data-md-color-scheme="slate"] .md-search__form { background: #18211d; }
+
+/* Typography */
+.md-typeset { font-size: 0.82rem; line-height: 1.65; }
+.md-typeset h1 {
+  color: var(--md-default-fg-color);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.md-typeset h2, .md-typeset h3 { font-weight: 700; letter-spacing: -0.01em; }
+.md-typeset strong { color: var(--md-default-fg-color); font-weight: 650; }
+
+/* Navigation */
+.md-nav__title { font-weight: 700; }
+.md-nav__item--section > .md-nav__link {
+  color: var(--sr-ink-2);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.md-nav__link--active, .md-nav__link:hover { color: var(--sr-primary) !important; }
+[data-md-color-scheme="slate"] .md-nav__link--active { color: var(--sr-green) !important; }
+.md-nav__link--active { font-weight: 600; }
+
+/* Screenshots: phone-like cards */
+.md-typeset figure { margin: 1.2em 0; }
+.md-typeset figure img,
+.md-typeset p > img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 22px;
+  border: 1px solid var(--sr-line);
+  box-shadow: 0 8px 28px rgba(4, 120, 87, 0.10);
+}
+[data-md-color-scheme="slate"] .md-typeset figure img { border-color: #1f2a26; }
+.md-typeset div[align] { text-align: center; }
+
+/* Admonitions in brand colors */
+.md-typeset .admonition, .md-typeset details {
+  border-radius: 14px;
+  border-width: 0;
+  border-left: 4px solid var(--sr-green);
+  box-shadow: none;
+  background: var(--sr-green-15);
+  font-size: 0.78rem;
+}
+.md-typeset .admonition.warning {
+  border-left-color: #fe9b0e;
+  background: #fff0db;
+}
+.md-typeset .admonition.danger { border-left-color: #e7000b; background: #fef2f2; }
+.md-typeset .admonition-title { background: transparent !important; font-weight: 700; }
+[data-md-color-scheme="slate"] .md-typeset .admonition { background: #13221c; }
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning { background: #2a2010; }
+
+.md-footer { background: var(--sr-ink); }
